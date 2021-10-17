@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "smart-grin-309120-tfstate"
     prefix = "env/prod"
   }
 }
